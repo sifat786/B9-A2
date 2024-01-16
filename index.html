@@ -9,23 +9,184 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     
     <header>
         <nav>
-            
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+                <h3>Nexus <span class="nav-span">Junction</span></h3>
+            </div>
+
+            <i class="fa-solid fa-bars"></i>
+
+            <ul>
+                <li class="first"><a href="">Home</a></li>
+                <li><a href="">Packages</a></li>
+                <li><a href="">Testimonial</a></li>
+                <li><a href="">Blog</a></li>
+                <li class="last"><a href="">Contact</a></li>
+            </ul>
         </nav>
+
+        <div class="banner">
+            <div class="banner-content">
+                <h1>Explore Your Travel</h1>
+                <p>Explore your travel, discover new horizons, embrace cultures, savor adventures, and create memories that last a lifetime.</p>
+                <div class="banner-items">
+                    <div class="item">
+                        <h6>Where go</h6>
+                    </div>
+                    <div class="items">
+                        <h6>When</h6>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="items one">
+                        <h6>Select Type</h6>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"> </i> Find Now</button>
+                </div>
+            </div>
+        </div>
     </header>
 
 
     <main>
+        <section class="tour">
+            <div class="tour-container">
+                <div class="tour-content">
+                    <h3 class="section-title">Our Popular Tours</h3>
+                    <p class="section-para">Our popular tours offer an immersive experience, blending adventure and cultural discovery. Explore diverse landscapes, from breathtaking natural wonders to vibrant city scapes.</p>
+                    <ul>
+                        <li>Explore diverse landscapes, from breathtaking natural wonders to vibrant city scapes, guided by knowledgeable experts.</li>
+                        <li>Immerse yourself in rich histories and traditions, savor cuisines and forge connections with like-minded explorers.</li>
+                        <li>Whether it's a thrilling outdoor escapade or a leisurely cultural exploration, our tours cater to every traveler's preference.</li>
+                    </ul>
+                    <p class="section-para">Whether it's a thrilling outdoor escapade or a leisurely cultural exploration, our tours cater to every traveler's preference. Revel in the beauty of iconic landmarks, savor local cuisines, and forge connections with like-minded explorers.</p>
+                    <button class="btn-primary">Read More</button>
+                </div>
+                <img src="images/tour.png" alt="hill">
+            </div>
+        </section>
 
+        <section class="country">
+            <div class="country-details">
+                <h3 class="section-title">Choose Your Destination</h3>
+                <p class="section-para">Discover your next adventure, choose your destination wisely, explore new horizons, and create unforgettable memories.</p>
+            </div>
+            <div class="country-content">
+                <div class="country-content">
+                    <div class="row">
+                       <div class="one">
+                        <h4 class="center">Maldives</h4>
+                       </div>
+                       <div class="two">
+                        <h4 class="center">Indonesia</h4>
+                       </div>
+                    </div>
+                    <div class="row2">
+                       <div class="three">
+                        <h4 class="center">Srilanka</h4>
+                       </div>
+                       <div class="four">
+                        <h4 class="center">North America</h4>
+                       </div>
+                       <div class="five">
+                        <img src="images/c5.png" alt="kashmir">
+                        <h4 class="center">Kashmir</h4>
+                       </div>
+                    </div>
+                    <div class="row3">
+                       <div class="six">
+                        <h4 class="center">Bangladesh</h4>
+                       </div>
+                       <div class="seven">
+                        <h4 class="center">Bandarban</h4>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="choose">
+            <div class="choose-details">
+                <h3 class="section-title">Why Choose Us</h3>
+                <p class="section-para">Choose us for exceptional service, unparalleled expertise, a commitment to excellence, and memorable experiences that last a lifetime.</p>
+            </div>
+            <div class="choose-content">
+                <div class="cho1">
+                    <div class="cho1-details">
+                        <img src="images/choose1.png" alt="home">
+                        <h4 class="section-heading">Handpicked Hotels</h4>
+                        <p class="section-para">Experience luxury and comfort in our handpicked hotels, offering exquisite amenities, impeccable service, and a memorable stay in every destination.</p>
+                    </div>
+                </div>
+                <div class="cho1">
+                    <div class="cho2-details">
+                        <img src="images/choose2.png" alt="map">
+                        <h4 class="section-heading">World Class Service</h4>
+                        <p class="section-para">Indulge in our world-class service, where attention to detail, personalized care, and exceptional experiences redefine luxury and hospitality standards.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="choose-content2">
+                <div class="cho1">
+                    <div class="cho3-details">
+                        <img src="images/choose3.png" alt="home">
+                        <h4 class="section-heading">Best Price Guarantee</h4>
+                        <p class="section-para">Enjoy peace of mind with our best price guarantee, ensuring unbeatable value, transparency, and affordability for your travel accommodations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="news-details">
+                <div class="input">
+                    <h4 class="section-heading">Newsletter</h4>
+                    <p class="section-para">Get your daily dose of travel news & tips. Sign up today!</p>
+                    <div class="hr"></div>
+
+                    <input type="text" placeholder="Enter your name">
+                    <input type="email" placeholder="Enter your email">
+                    <input class="btn-primary" type="submit" value="Subscribe">
+                </div>
+            </div>
+            <div class="news-img">
+                <div class="newsletter">
+                    <img src="images/news.png" alt="hill">
+                </div>
+                <div class="img-text">
+                    <h5>Travel.com</h5>
+                    <p>Save up to 70%</p>
+                </div>
+            </div>
+        </section>
     </main>
 
 
     <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/footer.png" alt="logo">
+                <h3>Nexus <span class="nav-span">Junction</span></h3>
+            </div>
+            <p>Explore the world with us. Discover unique destinations, indulge in exceptional experiences, and create lasting memories. Your journey begins here.</p>
 
+            <div class="footer-icons">
+                <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/sifat786/B9-A2/" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="footer-hr"></div>
+            <div class="end">
+                <small>2017, All Rights Reserved.</small>
+            </div>
+        </div>
     </footer>
 
     <script src="https://kit.fontawesome.com/96b7b3e22b.js" crossorigin="anonymous"></script>
