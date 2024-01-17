@@ -1,3 +1,4 @@
+/*! All CSS */
 *{
     margin: 0;
     padding: 0;
@@ -11,8 +12,9 @@ a{
 ol,li{
     list-style: none;
 }
-/* common style */
 
+
+/*! common style */
 .section-title{
     color: #131318;
     text-align: center;
@@ -44,7 +46,8 @@ ol,li{
     transition: all linear 0.3s;
 }
 
-/* nav start */
+
+/*! nav start */
 header{
     max-width: 1170px;
     margin: 0 auto;
@@ -94,8 +97,8 @@ nav ul .first a{
 nav ul .last{
     margin-right: 0;
 }
-/* nav end */
-/* banner start */
+/*! nav end */
+/*! banner start */
 .banner{
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/banner.png');
     background-repeat: no-repeat;
@@ -166,8 +169,8 @@ nav ul .last{
     background-color: black;
 }
 
-/* banner end */
-/* tour start */
+/*! banner end */
+/*! tour start */
 main{
     max-width: 1170px;
     margin: 0 auto;
@@ -188,10 +191,10 @@ main{
     padding-top: 24px;
 }
 .tour-content ul li{
-    width: 525px;
-    color: rgba(19, 19, 24, 0.70);
+    width: 480px;
+    color: #131318;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 26px;
     list-style: disc;
     padding-top: 14px;
@@ -206,7 +209,7 @@ main{
     margin-left: 45px;
 }
 
-/* tour end */
+/*! tour end */
 /*! country start */
 .country{
     padding-bottom: 100px;
@@ -232,7 +235,7 @@ main{
 }
 
 
-/* bg-image */
+/*! bg-image */
 .row .one{
     position: relative;
     height: 300px;
@@ -367,8 +370,8 @@ main{
     z-index: 9;
 }
 
-/* country end */
-/* choose start */
+/*! country end */
+/*! choose start */
 .choose-details h3{
     text-align: center;
 }
@@ -418,8 +421,188 @@ main{
     width: 486px;
     color: #5A5A5D;
 }
-/* choose end */
-/* news start */
+/*! choose end */
+/*! deals start */
+.deals{
+    padding-top: 85px;
+}
+.deals-details h3{
+    text-align: center;
+}
+.deals-details p{
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+.deals-content{
+    display: block;
+}
+
+.deals-content .row1{
+    border-radius: 16px;
+    background: url('../images/plan.png'), lightgray 50% / cover no-repeat;
+    padding: 55px 56px 56px 535px;
+    width: 1170px;
+    height: 500px;
+}
+.deals-content .row2{
+    border-radius: 16px;
+    background: url('../images/plan2.png'), lightgray 50% / cover no-repeat;
+    padding: 56px 535px 56px 56px;
+    margin-top: 20px;
+    width: 1170px;
+    height: 500px;
+}
+.deals-content .row3{
+    border-radius: 16px;
+    background: url('../images/plan.png'), lightgray 50% / cover no-repeat;
+    padding: 56px 56px 56px 535px;
+}
+.deals-content .box{
+    padding: 50px 77px 50px 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+}
+.deals-content .icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.deals-content .icons i{
+    color: #FF5400;
+}
+.deals-content .icons h6{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 500;
+}
+.six-nine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.deals-content .box h4{
+    padding-top: 26px;
+}
+.deals-content .box p{
+    width: 452px;
+    padding-top: 16px;
+}
+.deals-content .box h5{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+.deals-btn{
+    text-align: center;
+    margin-top: 62px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! deals end */
+/*! video start */
+.video{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+}
+.video-details h3{
+    width: 448px;
+}
+.video-details p{
+    width: 532px;
+    padding: 24px 0;
+}
+.video-details li{
+    list-style: disc;
+    margin-bottom: 16px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    width: 400px;
+    margin-left: 30px;
+}
+.video-details button{
+    margin-top: 16px;
+}
+.video-content{
+    width: 612px;
+    height: 435px;
+    position: relative;
+}
+.video-content video{
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+}
+video[poster]{
+    object-fit: cover;
+    object-position: center;
+}
+.video-content h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*! video end */
+/*! sponsor start */
+.sponsors{
+    padding-top: 100px;
+}
+.sponsors h3{
+    text-align: center;
+}
+.sponsors p{
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.sponsor-img{
+    padding-top: 50px;
+}
+.sponsor-img .row1, .sponsor-img .row2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+.sponsor-img .row2{
+    padding-top: 40px;
+}
+
+/*! sponsor end */
+/*! news start */
 .news{
     padding: 100px 0;
     display: flex;
@@ -431,7 +614,7 @@ main{
     border: 1px solid #FF5400;
 }
 .input{
-    padding: 40px;
+    padding: 35px;
 }
 .input p{
     width: 350px;
@@ -501,35 +684,8 @@ input::placeholder{
     font-weight: 800;
     padding-top: 4px;
 }
-/* news end */
-/* sponsor start */
-.sponsors{
-    padding-top: 100px;
-}
-.sponsors h3{
-    text-align: center;
-}
-.sponsors p{
-    width: 650px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 20px;
-}
-.sponsor-img{
-    padding-top: 40px;
-}
-.sponsor-img .row1, .sponsor-img .row2{
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    align-items: center;
-}
-.row2{
-    padding-top: 24px;
-}
-
-/* sponsor end */
-/* footer start */
+/*! news end */
+/*! footer start */
 footer{
     background: rgba(19, 19, 24, 0.05);
 }
@@ -585,252 +741,4 @@ small{
     font-size: 16px;
     font-weight: 300;
 }
-/* footer end */
-
-
-
-
-/* mobile */
-@media screen and (max-width: 600px) {
-    /* common*/
-  
-    body{
-      overflow-x: hidden;
-    }
-      .section-title{
-          font-size: 20px;
-      }
-  
-  /* nav start */
-      header{
-          max-width: 340px;
-          margin: 0 auto;
-      }
-  
-      nav{
-          padding: 20px 0;
-      }
-      nav .fa-bars{
-          display: block;
-      }
-      nav > ul{
-          display: none;
-      }
-      .logo h3{
-          font-size: 1.5rem;
-          margin-left: 9px;
-          font-weight: 800;
-      }
-      .logo img{
-          width: 25px;
-      }
-  /* nav end */
-  /* banner start */
-      .banner-content{
-          padding: 32px 0;
-      }
-      .banner-content h1{
-          font-size: 1.375rem;
-      }
-      .banner-content p{
-          width: 304px;
-          font-size: 14px;
-          line-height: 21px;
-          padding-top: 8px;
-          padding-bottom: 32px;
-      }
-      .banner-items{
-          grid-template-columns: 1fr;
-          gap: 16px;
-          margin: 0 24px;
-      }
-      .banner-items .item{
-          display: flex;
-          justify-content: flex-start;
-      }
-  
-  /* banner end */
-  /* tour start */
-      main{
-          max-width: 340px;
-          margin: 0 auto;
-      }
-      .tour{
-          padding: 24px 0;
-      }
-      .tour-container{
-          grid-template-columns: 1fr;
-      }
-      .tour-content ul li{
-          width: 335px;
-          font-size: 14px;
-          line-height: 24px;
-          padding-top: 12px;
-          margin-left: 15px;
-      }
-  
-      .tour-content p{
-          width: 335px;
-          padding-top: 16px;
-          font-size: 14px;
-      }
-      .tour-content button{
-          margin-top: 24px;
-          margin-bottom: 24px;
-      }
-      .tour-container img{
-          margin-left: -5px;
-          width: 100%;
-      }
-  
-  /* tour end */
-  /* country start */
-  .country{
-      padding-bottom: 24px;
-  }
-  .country-details p {
-      text-align: center;
-  }
-  .country-details p {
-      width: 309px;
-      padding-top: 16px;
-  }
-  .country-content{
-      padding-top: 13px;
-  }
-  .row2{
-      display: grid;
-      grid-template-columns: 1fr;
-  }
-  .row,.row3{
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 16px;
-      margin-bottom: 16px;
-  }
-  .row .one, .row .two, .row2 .three, .row2 .four, .row2 .five, .row3 .six, .row3 .seven{
-      height: 176px;
-  }
-  .row .one h4, .row .two h4,.row2 .three h4,.row2 .four h4, .row2 .five h4, .row3 .six h4, .row3 .seven h4{
-      font-size: 20px;
-  }
-  .row2 .five img{
-      height: 100%;
-      width: 100%;
-  }
-  /* country end */
-  /* choose start */
-  .choose-details p{
-      width: 309px;
-      padding-top: 16px;
-      padding-bottom: 32px;
-  }
-  .choose-content{
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      margin-bottom: 16px;
-  }
-  .choose-content2{
-      flex-direction: column;
-  }
-  .cho1-details h4,.cho2-details h4,.cho3-details h4{
-      font-size: 20px;
-  }
-  .cho1-details p,.cho2-details p,.cho3-details p{
-      width: 271px;
-  }
-  
-  /* choose end */
-  /* news start */
-  .news{
-      padding: 24px 0;
-      flex-direction: column;
-      gap: 16px;
-      align-items: center;
-  }
-  .input{
-      padding: 24px;
-  }
-  .input p{
-      width: 270px;
-      padding-top: 8px;
-      padding-bottom: 16px;
-  }
-  input[type='email']{
-      margin-bottom: 16px;
-  }
-  
-  .newsletter{
-      width: 335px;
-      height: 300px;
-      border-radius: 16px;
-  }
-  .newsletter img{
-      width: 100%;
-      height: 100%;
-  }
-  .img-text{
-      padding: 10px 0;
-      width: 214px;
-      border-radius: 10.5px;
-      bottom: 36px;
-      right: 7px;
-  }
-  .img-text h5{
-      font-size: 16px;
-  }
-  .img-text p{
-      font-size: 21.13px;
-      padding-top: 2.50px;
-  }
-  /* news end */
-  /* sponsor start */
-  .sponsors{
-      padding-top: 24px;
-  }
-  .sponsors p{
-      width: 350px;
-      padding-bottom: 16px;
-  }
-  .sponsor-img{
-      padding-top: 20px;
-  }
-  .sponsor-img .row1, .sponsor-img .row2{
-      flex-direction: column;
-      gap: 30px;
-  }
-  .row2{
-      padding-top: 24px;
-  }
-  
-  /* sponsor end */
-  /* footer start */
-  .footer-content{
-      padding: 32px 0;
-  }
-  .footer-logo h3{
-      font-size: 21.5px;
-      margin-left: 10px;
-  }
-  .footer-logo img{
-      width: 10%;
-  }
-  .footer-content p{
-      width: 287px;
-      font-size: 14px;
-      line-height: 24px;
-      padding-top: 16px;
-      padding-bottom: 16px;
-  }
-  .footer-icons a i{
-      font-size: 18px;
-  }
-  .footer-hr{
-      margin: 24px 0;
-  }
-  .end{
-  font-size: 14px;
-  }
-  /* footer end */
-  }
+/*! footer end */
