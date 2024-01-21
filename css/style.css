@@ -444,21 +444,12 @@ main{
     border-radius: 16px;
     background: url('../images/plan.png'), lightgray 50% / cover no-repeat;
     padding: 55px 56px 56px 535px;
-    width: 1170px;
-    height: 500px;
 }
 .deals-content .row2{
     border-radius: 16px;
     background: url('../images/plan2.png'), lightgray 50% / cover no-repeat;
     padding: 56px 535px 56px 56px;
     margin-top: 20px;
-    width: 1170px;
-    height: 500px;
-}
-.deals-content .row3{
-    border-radius: 16px;
-    background: url('../images/plan.png'), lightgray 50% / cover no-repeat;
-    padding: 56px 56px 56px 535px;
 }
 .deals-content .box{
     padding: 50px 77px 50px 50px;
@@ -506,21 +497,6 @@ main{
     text-align: center;
     margin-top: 62px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*! deals end */
 /*! video start */
 .video{

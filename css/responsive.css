@@ -5,7 +5,7 @@
     font-size: 20px;
 }
   
-/* nav start */
+/*! nav start */
 header{
     max-width: 340px;
     margin: 0 auto;
@@ -28,8 +28,8 @@ nav > ul{
 .logo img{
     width: 25px;
 }
-/* nav end */
-/* banner start */
+/*! nav end */
+/*! banner start */
 .banner-content{
     padding: 32px 0;
 }
@@ -52,8 +52,8 @@ nav > ul{
     display: flex;
     justify-content: flex-start;
 }
-/* banner end */
-/* tour start */
+/*! banner end */
+/*! tour start */
 main{
     max-width: 340px;
     margin: 0 auto;
@@ -85,8 +85,8 @@ main{
     margin-left: -5px;
     width: 100%;
 }
-/* tour end */
-/* country start */
+/*! tour end */
+/*! country start */
 .country{
     padding-bottom: 24px;
 }
@@ -121,8 +121,8 @@ main{
     height: 100%;
     width: 100%;
 }
-/* country end */
-/* choose start */
+/*! country end */
+/*! choose start */
 .choose-details p{
     width: 309px;
     padding-top: 16px;
@@ -143,19 +143,8 @@ main{
 .cho1-details p,.cho2-details p,.cho3-details p{
     width: 271px;
 }
-/* choose end */
-/* deals start */
-
-
-
-
-
-
-
-
-
-/* deals end */
-/* video start */
+/*! choose end */
+/*! video start */
 .video{
     padding-top: 24px;
     grid-template-columns: 1fr;
@@ -187,8 +176,8 @@ main{
     font-weight: 600;
     line-height: 25px;
 }
-/* video end */
-/*! plan start */
+/*! video end */
+/*! deal start */
 .deals{
     padding-top: 24px;
     padding-bottom: 10px;
@@ -203,23 +192,16 @@ main{
     margin-top: 16px;
 }
 .deals-content .row1{
-    padding: 187px 16px 16px 16px;
-    width: 335px;
-    height: 500px;
+    padding: 80px 16px 16px 16px;
 }
 .deals-content .row2{
     margin-top: 16px;
-    padding: 187px 16px 16px 16px;
-    width: 335px;
-    height: 500px;
-}
-.deals-content .row3{
-    padding: 187px 16px 16px 16px;
+    padding: 80px 16px 16px 16px;
 }
 .deals-content .box{
     padding: 40px 24px;
+    padding-bottom: 0px;
     width: 303px;
-    height: 297px;
 }
 .deals-content .icons{
     flex-wrap: wrap;
@@ -249,18 +231,8 @@ main{
     padding-top: 12px;
     padding-bottom: 16px;
 }
-
-.deals-content .box button{
-    display: none;
-}
-
-
-
-
-
-
-/*! plan end */
-/* sponsor start */
+/*! deal end */
+/*! sponsor start */
 .sponsors{
     padding-top: 28px;
 }
@@ -276,8 +248,8 @@ main{
     flex-direction: column;
     gap: 50px;
 }
-/* sponsor end */
-/* news start */
+/*! sponsor end */
+/*! news start */
 .news{
     padding: 24px 0;
     flex-direction: column;
@@ -319,8 +291,8 @@ input[type='email']{
     font-size: 21.13px;
     padding-top: 2.50px;
 }
-/* news end */
-/* footer start */
+/*! news end */
+/*! footer start */
 .footer-content{
     padding: 32px 0;
 }
@@ -350,5 +322,4 @@ input[type='email']{
   font-size: 14px;
 }
 /*! footer end */
-  
 }
